@@ -1,0 +1,19 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: lightblue; }
+  .container .quoteBox {
+    display: flex;
+    justify-content: space-between; }
+    .container .quoteBox:hover {
+      border: 1px solid red; }
+    .container .quoteBox .quotePart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 5vw;
+      max-width: 15vw;
+      overflow: hidden;
+      cursor: default; }
+
+/*# sourceMappingURL=index.css.map */
